@@ -43,4 +43,4 @@ AutoHybrid
 Note
 ====
 
-:.. warning:: This is a WIP
+⚠️ This is a WIP ⚠️
