@@ -40,7 +40,5 @@ AutoHybrid
 
 .. _pyscaffold-notes:
 
-Note
-====
-
-⚠️ This is a WIP ⚠️
+⚠️ Note: This package is still WIP ⚠️
+=====
