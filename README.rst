@@ -23,10 +23,10 @@
         :alt: Twitter
         :target: https://twitter.com/AutoHybrid
 
-.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+ image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
     :target: https://pyscaffold.org/
-
+..
 |
 
 ==========
@@ -37,13 +37,10 @@ AutoHybrid
     Project Repository of the publicly funded research project "AutoHybrid"
 
 
-A longer description of your project goes here...
-
 
 .. _pyscaffold-notes:
 
 Note
 ====
 
-This project has been set up using PyScaffold 4.1.1. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+:.. warning:: This is a WIP
