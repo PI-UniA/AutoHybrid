@@ -1,8 +1,6 @@
 # AutoHybrid
 
-    Project Repository of the publicly funded research project "AutoHybrid"
-
-
+Project Repository of the publicly funded research project "AutoHybrid"
 
 # ⚠️ Note: This package is still WIP ⚠️
 
