@@ -12,7 +12,7 @@ The package deps are all listed in a `.yml` File in the `docker-env/` directory.
 To install them using conda:
 
 ```bash
-conda create --name prosi3d --file docker-env/environment.yml
+conda create --name autohybrid --file docker-env/environment.yml
 ```
 
 ## Using `tox`
@@ -36,11 +36,11 @@ python setup.py develop
 Lastly, you can build and run the Docker container that comes along with the package:
 
 ```bash
-docker build . -t prosi3d:latest
+docker build . -t autohybrid:latest
 ```
 
 Run the container in a terminal:
 
 ```bash
-docker run --rm -ti prosi3d:latest
+docker run --rm -ti autohybrid:latest
 ```
