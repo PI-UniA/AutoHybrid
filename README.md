@@ -1,46 +1,9 @@
 # AutoHybrid
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://pzimbrod.github.io/AutoHybrid.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://pzimbrod.github.io/AutoHybrid.jl/dev)
+[![Build Status](https://github.com/pzimbrod/AutoHybrid.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/pzimbrod/AutoHybrid.jl/actions/workflows/CI.yml?query=branch%3Amain)
+
 Project Repository of the publicly funded research project "AutoHybrid"
 
 # ⚠️ Note: This package is still WIP ⚠️
-
-# Installation
-
-## Requirements
-
-The package deps are all listed in a `.yml` File in the `docker-env/` directory.
-To install them using conda:
-
-```bash
-conda create --name autohybrid --file docker-env/environment.yml
-```
-
-## Using `tox`
-
-For now, you can use the package by invoking the `tox` build system:
-
-```bash
-tox -e build
-```
-
-## Using `setuptools`
-
-Alternatively, you can use the Python package `setuptools` to build the local package:
-
-```bash
-python setup.py develop
-```
-
-## Using Docker
-
-Lastly, you can build and run the Docker container that comes along with the package:
-
-```bash
-docker build . -t autohybrid:latest
-```
-
-Run the container in a terminal:
-
-```bash
-docker run --rm -ti autohybrid:latest
-```
